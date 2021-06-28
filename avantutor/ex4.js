@@ -12,11 +12,11 @@ sum = 0
 s = []
 
 // loop
-for (let pointer = 0; pointer <= len_arrs; pointer++) {
+for (let pointer = 0; pointer < len_arrs; pointer++) {
 
     // sum numbers at the index
     sum = arr_1[pointer] + arr_2[pointer]
-    s.append(sum)
+    s.push(sum)
     console.log(s)
     
 }
