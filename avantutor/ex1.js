@@ -8,7 +8,7 @@ let sum1 = 0;
 // define arr2, get its length and initiate its sum
 let arr2 = [9, 2, 42, 55, 71, 22, 4,  5,  90, 25, 26];
 let len_arr2 = arr2.length;
-sum2 = 0;
+let sum2 = 0;
 
 // find the sum of arr1
 for (let i = 0; i < len_arr1; i++) {
